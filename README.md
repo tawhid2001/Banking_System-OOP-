@@ -1,10 +1,28 @@
-Banking System
-This project implements a basic banking system with functionalities for both admins and users. It allows admins to create and manage user accounts, view account balances, and grant or deny loan permissions. Users can perform transactions such as depositing and withdrawing money, checking their balance, viewing transaction history, applying for loans, and sending money to other accounts.
+# Banking System 💳🏦
 
-Files
-bank.py: Contains the implementation of the Bank class, which manages user accounts, loan permissions, and total balances.
-person.py: Defines the Person class as an abstract base class and provides concrete implementations for User and Admin subclasses. Users can perform banking operations, while Admins have additional privileges like creating user accounts and managing the system.
-main.py: Implements the main program logic for user interaction. It allows users to log in as either admins or regular users, perform banking operations, and exit the program.
+This project implements a basic banking system with functionalities for both **Admins** and **Users**. It supports account management, transaction history, loan handling, and more.
 
+## Features
+- **Admins**: 
+  - Create and manage user accounts.
+  - View account balances.
+  - Approve/deny loan requests.
+- **Users**: 
+  - Deposit, withdraw, and check balance.
+  - View transaction history.
+  - Apply for loans.
+  - Send money to other accounts.
 
-NOTE: WHEN ACCESSING AS ADMIN THE USERNAME IS MUST BE GIVEN AS "admin" AND PASSWORD "1234"
+## Files
+- `bank.py`: Handles bank operations and account management.
+- `person.py`: Defines `User` and `Admin` classes.
+- `main.py`: Main program logic for user interaction.
+
+## Admin Access
+- **Username**: `admin`
+- **Password**: `1234`
+
+## How to Run
+1. Clone the repository.
+2. Run `main.py` to start the application.
+
